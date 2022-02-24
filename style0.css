@@ -3,7 +3,7 @@ body {
 }
 #main-container {
     display: grid;
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
     grid-template-columns: repeat(4, 1fr);
 }
 h1 {
@@ -21,6 +21,11 @@ h1 {
 form {
     grid-row: 2 / 3;
     grid-column: 3 / 5;
+}
+#ordered-items-div {
+    grid-row: 4 / 5;
+    grid-column: 3 / 5;
+    font-size: 1sem;
 }
 #order-total {
     grid-row: 3 / 4;
