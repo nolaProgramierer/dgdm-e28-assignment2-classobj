@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelector('#order-total').innerHTML = "Your order total is: $" + total.toFixed(2);
         // Clear values from form
         document.querySelector('form').reset();
-        // Display ordered item
+        // Display ordered items
         showOrderedItems(quantities);
         // Prevent page refresh
         e.preventDefault();
